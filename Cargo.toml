@@ -278,3 +278,6 @@ all-static = ['vendored-openssl', 'curl/static-curl', 'curl/force-system-lib-on-
 
 [lints]
 workspace = true
+
+[patch.crates-io]
+libc = { git = 'https://github.com/amy-kwan/libc.git', rev = '6cce16d3be12a0c084d7ca6ac039be1f421b9894' }
